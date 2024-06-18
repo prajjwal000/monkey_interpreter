@@ -7,6 +7,8 @@ Goals of project-
 2. Not becoming a copycat codebase! For this I shall make the language as monkey as I can
 
 Features of language-
-# C-like syntax
-# Variables, expressions, functions, arrays, strings, hashes and one esoteric monkey feature.
+. C-like syntax
+. Variables, expressions, functions, arrays, strings, hashes and one esoteric monkey feature.
 
+Idea list-
+1. Support for uni-code and emoji
