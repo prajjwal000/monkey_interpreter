@@ -13,3 +13,4 @@ Features of language-
 Idea list-
 1. Support for uni-code and emoji
 2. Delete keyword
+3. Support for escape sequences
