@@ -35,6 +35,8 @@ const (
 	RPAREN = ")"
 	LCURLY = "{"
 	RCURLY = "}"
+    LBRACKET = "["
+    RBRACKET = "]"
 
 	//KEYWORDS
 	LET    = "LET"
