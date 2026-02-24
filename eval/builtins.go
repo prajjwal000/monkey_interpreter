@@ -1,9 +1,9 @@
 package eval
 
 import (
-    "monkey/object"
-    "fmt"
-//    "unicode/utf8"
+	"fmt"
+	"monkey/object"
+	// "unicode/utf8"
 )
 
 var builtins = map[string]*object.Builtin{
@@ -103,13 +103,13 @@ var builtins = map[string]*object.Builtin{
 			return &object.Array{Elements: newElements}
 		},
 	},
-    "puts": &object.Builtin{
-        Fn: func(args ...object.Object) object.Object {
-            for _, arg := range args {
-                fmt.Println(arg.Inspect())
-            }
+	"puts": &object.Builtin{
+		Fn: func(args ...object.Object) object.Object {
+			for _, arg := range args {
+				fmt.Println(arg.Inspect())
+			}
 
-            return NULL
-        },
-    },
+			return NULL
+		},
+	},
 }

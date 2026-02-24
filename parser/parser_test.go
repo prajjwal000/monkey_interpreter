@@ -837,7 +837,6 @@ func TestParsingHashLiteralsWithExpressions(t *testing.T) {
 	}
 }
 
-
 func testLiteralExpression(
 	t *testing.T,
 	exp ast.Expression,

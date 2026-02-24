@@ -12,7 +12,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("Hello %s! This is your lovely monkey language\n", user.Username)
-	fmt.Printf("Type commands my Lord!\n")
+	fmt.Printf("Hello %s! This is the lovely monkey language\n", user.Username)
+	fmt.Printf("Type commands my liege!\n")
 	repl.Start(os.Stdin, os.Stdout)
 }
